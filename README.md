@@ -5,9 +5,9 @@ A Java wrapper around the [Heroku RESTful API][1] and a simple DSL for easy
 interaction.
 
 Remote services are grouped into local service objects which can be centrally
-managed by a `ServiceManager` instance. The manager will act as a factory for
-all of the services and will automatically initialize them with your
-credentials and API key.
+managed by a `HerokuServiceManager` instance. The manager will act as a factory
+for all of the services and will automatically initialize them with your
+API key.
 
 Each service contains methods which correspond to a remote method. Each of
 these methods instantiates a class that will allow for you to build the
